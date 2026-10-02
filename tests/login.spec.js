@@ -24,7 +24,7 @@ test.describe('Логин', () => {
 
         // Assert: проверяем, что попали на страницу товаров
         await expect(page).toHaveURL(/inventory/);
-        await expect(inventoryPage.pageTitle).toHaveText('Товары');
+        await expect(inventoryPage.pageTitle).toHaveText('Products');
        
     });
 
